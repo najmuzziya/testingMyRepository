@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27398" started-at="2018-10-16T11:00:44Z" finished-at="2018-10-16T11:01:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27398" started-at="2018-10-16T11:00:44Z" finished-at="2018-10-16T11:01:12Z">
+      <class name="com.test.PHPTravelsTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.test.PHPTravelsTest@35bbe5e8]" name="openApp" is-config="true" duration-ms="8188" started-at="2018-10-16T16:30:44Z" finished-at="2018-10-16T16:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="validAdminTest()[pri:0, instance:com.test.PHPTravelsTest@35bbe5e8]" name="validAdminTest" duration-ms="19081" started-at="2018-10-16T16:30:53Z" finished-at="2018-10-16T16:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAdminTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.test.PHPTravelsTest@35bbe5e8]" name="closeApp" is-config="true" duration-ms="119" started-at="2018-10-16T16:31:12Z" finished-at="2018-10-16T16:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.test.PHPTravelsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

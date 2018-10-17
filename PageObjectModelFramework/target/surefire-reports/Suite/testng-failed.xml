@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.PHPTravelsTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.test.PHPTravelsTest -->
+      <class name="com.report.Extent_Report">
+        <methods>
+          <include name="genrateresults"/>
+          <include name="startReport"/>
+          <include name="login"/>
+          <include name="mobileRecharge"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.report.Extent_Report -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
